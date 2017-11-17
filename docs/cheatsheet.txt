@@ -1,0 +1,68 @@
+*cheatsheet.txt*	
+*cheatsheet*
+*cheat*
+
+Peter's cheat sheet of Vim stuff he always forgets.
+
+===============================================================================
+CONTENTS
+
+	1. Tabs..............................................|cheatsheet-tabs|
+	2. Git................................................|cheatsheet-git|
+	3. Terminal......................................|cheatsheet-terminal|
+	4. Files............................................|cheatsheet-files|
+	5. Code..............................................|cheatsheet-code|
+	6. UI..................................................|cheatsheet-ui|
+	7. Plugins........................................|cheatsheet-plugins|
+
+===============================================================================
+1. Tabs                                                *cheatsheet-tabs*
+
+   - gt : Next tab
+   - gT : Pervious tab
+   - [i]gt : Specific tab
+
+===============================================================================
+2. Git                                                 *cheatsheet-git*
+
+   - <Leader>gs : Git status 
+     - << : stage
+     - >> : unstage
+     - dd : diff
+   - <Leader>gc : Git commit 
+     - ! : switch --amend
+     - :w  : save cache
+     - :q  : commit changes (confirm) 
+     - :wq : commit changes (immediate)
+   - <Leader>gp : Git push 
+
+===============================================================================
+3. Terminal                                       *cheatsheet-terminal*
+
+   - :terminal : open terminal 
+
+===============================================================================
+4. Files                                            *cheatsheet-files*
+
+   - <Leader>t : Toggle NERDTree
+   - <Leader>f : Fuzzy find files
+   - <Leader>s : Search and replace
+   - <Leader>e : edit a new file
+   - <Leader>w : write file
+
+===============================================================================
+5. Code                                              *cheatsheet-code*
+
+   - <Leader>/ : Comment line 
+
+===============================================================================
+6. UI                                                 *cheatsheet-ui*
+
+   - <Leader>bg : Toggle background from light to dark 
+
+===============================================================================
+7. Plugins                                       *cheatsheet-plugins*
+
+   - :PlugInstall : Install plugins
+   - :PlugUpdate : Update plugins
+   - :PlugClean : Clean plugins
